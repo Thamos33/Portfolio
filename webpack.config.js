@@ -7,10 +7,10 @@ module.exports = {
     entry: './src/js/main.js',
     output: {
         filename: 'main.js',
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'docs'),
     },
     devServer: {
-        static: path.resolve(__dirname, 'dist'),
+        static: path.resolve(__dirname, 'docs'),
         port: 8080,
         hot: true,
     },
@@ -80,11 +80,11 @@ module.exports = {
       patterns: [
         {
           from: path.resolve(__dirname, 'src/js/translations'),
-          to: path.resolve(__dirname, 'dist/translations')
+          to: path.resolve(__dirname, 'docs/translations')
         },
         {
         from: path.resolve(__dirname, 'src/templates'),
-        to: path.resolve(__dirname, 'dist')
+        to: path.resolve(__dirname, 'docs')
     }
       ]
     })
