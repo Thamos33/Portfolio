@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="description"
+            content="Développeur web passionné, je me présente à travers mon parcours, mes expériences et ma vision du métier. Découvrez qui je suis et ce qui m’anime au quotidien."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <link rel="icon" href="images/favicon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="images/favicon.png" />
+        <title>Portfolio Thomas Crouvizier</title>
+    </head>
+    <body class="home">
+        <header>
+            <div class="container">
+                <div class="switch-lang">
+                    <button
+                        class="lang-switch-button"
+                        data-lang="fr"
+                        onclick="setLanguage('fr')"
+                    >
+                        FR
+                    </button>
+                    <button
+                        class="lang-switch-button"
+                        data-lang="en"
+                        onclick="setLanguage('en')"
+                    >
+                        EN
+                    </button>
+                </div>
+
+                <a
+                    href="#"
+                    title="Menu"
+                    class="d-block d-sm-none js-open-btn"
+                    aria-label="Ouvrir le menu"
+                >
+                    <span class="burger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </a>
+
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h1>
+                            Thomas Crouvizier
+                            <span data-i18n="title" class="h2"
+                                >Développeur Front-end</span
+                            >
+                        </h1>
+                    </div>
+                    <img
+                        class="d-none d-sm-block rounded-circle"
+                        src="images/profil.jpg"
+                        data-i18n-alt="menu1"
+                        alt="Photo de Thomas Crouvizier"
+                    />
+                </div>
+
+                <nav
+                    role="navigation"
+                    class="sidenav d-block d-sm-none js-sidenav"
+                    aria-label="Menu principal"
+                >
+                    <a
+                        href="#"
+                        title="Fermer"
+                        aria-label="Fermer le menu"
+                        class="close js-close-btn"
+                        >×</a
+                    >
+                    <ul>
+                        <li>
+                            <a
+                                href="./index.html"
+                                class="disabled"
+                                aria-disabled="true"
+                                aria-current="page"
+                                title="Présentation"
+                                data-i18n="menu1"
+                                data-i18n-title="menu1"
+                                >Présentation</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="./projets.html"
+                                data-i18n="menu2"
+                                data-i18n-title="menu2"
+                                title="Projets"
+                                >Projets</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="./skills.html"
+                                data-i18n="menu3"
+                                data-i18n-title="menu3"
+                                title="Compétences"
+                                >Compétences</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="./contact.html"
+                                data-i18n="menu4"
+                                data-i18n-title="menu4"
+                                title="Contact"
+                                >Contact</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+
+                <nav
+                    role="navigation"
+                    class="d-none d-sm-block"
+                    aria-label="Menu principal"
+                >
+                    <ul class="d-sm-flex justify-content-between">
+                        <li class="w-100 text-center">
+                            <a
+                                href="./index.html"
+                                class="btn btn-primary disabled"
+                                title="Présentation"
+                                aria-current="page"
+                                aria-disabled="true"
+                                data-i18n="menu1"
+                                data-i18n-title="menu1"
+                                >Présentation</a
+                            >
+                        </li>
+                        <li class="w-100 text-center">
+                            <a
+                                href="./projets.html"
+                                title="Projets"
+                                class="btn btn-primary"
+                                data-i18n="menu2"
+                                data-i18n-title="menu2"
+                                >Projets</a
+                            >
+                        </li>
+                        <li class="w-100 text-center">
+                            <a
+                                href="./skills.html"
+                                title="Compétences"
+                                class="btn btn-primary"
+                                data-i18n="menu3"
+                                data-i18n-title="menu3"
+                                >Compétences</a
+                            >
+                        </li>
+                        <li class="w-100 text-center">
+                            <a
+                                href="./contact.html"
+                                title="Contact"
+                                class="btn btn-primary"
+                                data-i18n="menu4"
+                                data-i18n-title="menu4"
+                                >Contact</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="container" role="main">
+            <div class="content">
+                <section>
+                    <h2 data-i18n="about">À propos de moi</h2>
+                    <p data-i18n="about1">
+                        Je suis quelqu’un d’<strong>organisé</strong>, de
+                        <strong>logique</strong>, et passionné par tout ce qui
+                        touche à la structure et à la réflexion, comme les
+                        mathématiques ou le code. Pour moi, développer n’est pas
+                        simplement un travail, c’est un vrai plaisir. J’y vois
+                        un mélange unique de logique, de créativité et
+                        d’organisation, un peu comme résoudre une énigme ou
+                        jouer à un jeu vidéo.
+                    </p>
+                    <p data-i18n="about2">
+                        Depuis le collège, je suis fasciné par Internet et le
+                        monde du numérique. J’ai toujours su que je voulais
+                        évoluer dans ce domaine. Ce que j’apprécie
+                        particulièrement, c’est l’aspect
+                        <strong>créatif</strong> du développement : imaginer une
+                        interface que l’utilisateur va trouver à la fois
+                        <strong>pratique</strong>, <strong>agréable</strong> et
+                        <strong>esthétique</strong> est une vraie source de
+                        satisfaction pour moi.
+                    </p>
+                    <p data-i18n="about3">
+                        C’est donc tout naturellement que je me suis orienté
+                        vers des études en développement, avant de rejoindre le
+                        monde professionnel dans une
+                        <strong>agence web</strong>.
+                    </p>
+                </section>
+                <section>
+                    <h3 data-i18n="myjourney">Mon parcours</h3>
+                    <p data-i18n="myjourney1">
+                        Après un <strong>BTS SIO</strong>, j’ai obtenu en 2019
+                        une <strong>licence professionnelle</strong> en
+                        “Développement d’applications Web et Big Data” à
+                        Limoges. Cette dernière année s’est déroulée en
+                        <strong>alternance</strong> chez Emakina, une agence web
+                        également basée à Limoges, qui m’a offert l’opportunité
+                        de m’essayer au développement front-end, malgré une
+                        formation initialement orientée back-end.
+                    </p>
+                    <p data-i18n="myjourney2">
+                        Ce défi a été une révélation : j’ai rapidement pris mes
+                        marques, ce qui m’a permis de poursuivre l’aventure chez
+                        Emakina en tant que développeur front-end pendant
+                        <strong>cinq ans</strong>. Durant cette période, j’ai
+                        travaillé sur une grande variété de projets, sites
+                        <strong>vitrines comme e-commerces</strong>, que je
+                        détaille sur la
+                        <a
+                            href="./projets.html"
+                            data-i18n-title="myProjects"
+                            title="Mes projets"
+                            >page dédiée à mes réalisations</a
+                        >. J’ai évolué au sein
+                        <strong>d’équipes agiles</strong>, avec une exigence
+                        constante de qualité technique et visuelle.
+                    </p>
+                </section>
+                <section>
+                    <h3 data-i18n="mygoals">Mes objectifs</h3>
+                    <p data-i18n="mygoals1">
+                        Actuellement basé près de Bordeaux, je suis
+                        <strong>disponible immédiatement</strong> pour un poste
+                        en Nouvelle-Aquitaine ou en Occitanie. N’ayant ni
+                        logement à libérer ni préavis à respecter, je peux
+                        m’adapter rapidement à une nouvelle opportunité.
+                    </p>
+                    <p data-i18n="mygoals2">
+                        Je souhaite aujourd’hui rejoindre une équipe à taille
+                        humaine, où je pourrai continuer à évoluer dans le
+                        développement front-end tout en renforçant mes
+                        compétences, notamment sur les frameworks JavaScript
+                        comme Vue.js ou React.
+                    </p>
+                    <p data-i18n="mygoals3">
+                        Je suis également très curieux des nouvelles pratiques
+                        liées à <strong>l’intelligence artificielle</strong>,
+                        que je considère comme un
+                        <strong>atout majeur</strong> pour notre métier, aussi
+                        bien pour améliorer notre productivité que pour explorer
+                        de nouvelles façons de concevoir et développer des
+                        projets. Ce que je recherche avant tout, c’est un
+                        <strong>environnement stimulant</strong>, où je pourrai
+                        apprendre, échanger, et contribuer à des projets
+                        concrets et variés.
+                    </p>
+                </section>
+            </div>
+        </main>
+        <footer></footer>
+        <script src="./main.js" defer></script>
+    </body>
+</html>

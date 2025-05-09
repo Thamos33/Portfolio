@@ -1,0 +1,84 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./variables";
+
+//----------------------------//
+// CUSTOM
+//----------------------------//
+
+// TITLES
+// BTN
+
+// TITLES
+//----------------------------//
+h1,
+.h1 {
+    display: block;
+    font-size: $font-h1-mobile;
+
+    @include media-breakpoint-up(md) {
+        font-size: $font-h1;
+    }
+}
+
+h2,
+.h2 {
+    display: block;
+    font-size: $font-h2-mobile;
+    margin-bottom: $margin * 2;
+
+    @include media-breakpoint-up(md) {
+        font-size: $font-h2;
+    }
+}
+
+h3,
+.h3 {
+    display: block;
+    font-size: $font-h3;
+    margin-bottom: $margin;
+}
+
+h4,
+.h4 {
+    display: block;
+    font-size: $font-h4;
+}
+
+p, li {
+    font-size: $font-base;
+}
+
+// BTN
+//----------------------------//
+.btn.btn-primary {
+    width: calc(100% - 10px);
+    background-color: $main-color;
+    border-color: $main-color;
+    font-size: $font-base;
+    transition: 0.3s;
+
+    &:hover {
+        transition: 0.3s;
+        opacity: 0.9;
+    }
+}
+
+.btn.btn-secondary {
+    width: 100%;
+    max-width: initial;
+    background-color: $bg-color;
+    border-color: $main-color;
+    font-size: $font-base;
+    color: $main-color;
+    transition: 0.3s;
+
+    @include media-breakpoint-up(md) {
+        max-width: 200px;
+    }
+
+    &:hover {
+        background-color: $main-color;
+        color: $white;
+        transition: 0.3s;
+    }
+}

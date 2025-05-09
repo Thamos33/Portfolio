@@ -1,0 +1,19 @@
+# Node.js (si tu utilises npm/yarn ou un bundler comme Vite/Webpack)
+node_modules/
+build/
+
+# OS / fichiers temporaires
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Éditeurs de code
+.vscode/
+.idea/
+
+# Environnements
+.env
+.env.local
+.env.*.local

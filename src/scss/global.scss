@@ -1,0 +1,85 @@
+//----------------------------//
+// GLOBAL
+//----------------------------//
+
+// GLOBAL
+
+// GLOBAL
+//----------------------------//
+@font-face {
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+    src: url('./fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+}
+
+body {
+    min-height: 100vh;
+    background-color: $main-color;
+    color: $main-color;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    background-color: $bg-color;
+    padding-top: 50px;
+
+    @include media-breakpoint-up(sm) {
+        padding: $margin * 3 0 $margin;
+    }
+
+    .container {
+        position: relative;
+    }
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: $margin * 2;
+    margin-bottom: $margin * 2;
+
+    @include media-breakpoint-up(md) {
+        margin-top: $margin * 4;
+    }
+}
+
+a {
+    color: $main-color;
+    text-decoration: none;
+}
+
+.content {
+    width: 100%;
+    padding: $margin;
+    background-color: $bg-color-content;
+    border: 1px solid $main-color;
+    border-radius: 5px;
+}
+
+.home .content a {
+    text-decoration: underline;
+}
+
+.switch-lang {
+    position: absolute;
+    top: -$margin * 2;
+    right: $margin * 0.5;
+
+    @include media-breakpoint-up(sm) {
+        right: 0;
+    }
+
+    .lang-switch-button {
+        border: 1px solid $main-color;
+        border-radius: 3px;
+        color: $main-color;
+        background-color: $bg-color;
+
+        &.active {
+            color: $white;
+            background-color: $main-color;
+        }
+    }
+}

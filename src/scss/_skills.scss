@@ -1,0 +1,18 @@
+//----------------------------//
+// SKILLS
+//----------------------------//
+
+// CONTENT
+
+// CONTENT
+//----------------------------//
+.accordion {
+    &-button {
+        font-size: $font-base;
+        color: $main-color;
+
+        &::after {
+            color: $main-color;
+        }
+    }
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta
+            name="description"
+            content="Une question, un projet ou une opportunité à me proposer ? Contactez-moi facilement par email."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <link rel="icon" href="images/favicon.png" type="image/png" />
+        <link rel="apple-touch-icon" href="images/favicon.png" />
+        <title data-i18n="contactTitle">
+            Portfolio Thomas Crouvizier | Contact
+        </title>
+    </head>
+    <body class="contact">
+        <header>
+            <div class="container">
+                <div class="switch-lang">
+                    <button
+                        class="lang-switch-button"
+                        data-lang="fr"
+                        onclick="setLanguage('fr')"
+                    >
+                        FR
+                    </button>
+                    <button
+                        class="lang-switch-button"
+                        data-lang="en"
+                        onclick="setLanguage('en')"
+                    >
+                        EN
+                    </button>
+                </div>
+
+                <a
+                    href="#"
+                    title="Menu"
+                    class="d-block d-sm-none js-open-btn"
+                    aria-label="Ouvrir le menu"
+                >
+                    <span class="burger-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                </a>
+
+                <div class="d-flex justify-content-between">
+                    <div>
+                        <h1>
+                            Thomas Crouvizier
+                            <span data-i18n="title" class="h2"
+                                >Développeur Front-end</span
+                            >
+                        </h1>
+                    </div>
+                    <img
+                        class="d-none d-sm-block rounded-circle"
+                        src="images/profil.jpg"
+                        data-i18n-alt="profilePict"
+                        alt="Photo de Thomas Crouvizier"
+                    />
+                </div>
+
+                <nav
+                    role="navigation"
+                    class="sidenav d-block d-sm-none js-sidenav"
+                    aria-label="Menu principal"
+                >
+                    <a
+                        href="#"
+                        title="Fermer"
+                        aria-label="Fermer le menu"
+                        class="close js-close-btn"
+                        >×</a
+                    >
+                    <ul>
+                        <li>
+                            <a
+                                href="./index.html"
+                                title="Présentation"
+                                data-i18n="menu1"
+                                data-i18n-title="menu1"
+                                >Présentation</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="./projets.html"
+                                data-i18n="menu2"
+                                data-i18n-title="menu2"
+                                title="Projets"
+                                >Projets</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="./skills.html"
+                                data-i18n="menu3"
+                                data-i18n-title="menu3"
+                                title="Compétences"
+                                >Compétences</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="./contact.html"
+                                data-i18n="menu4"
+                                class="disabled"
+                                aria-disabled="true"
+                                aria-current="page"
+                                data-i18n-title="menu4"
+                                title="Contact"
+                                >Contact</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+
+                <nav
+                    role="navigation"
+                    class="d-none d-sm-block"
+                    aria-label="Menu principal"
+                >
+                    <ul class="d-sm-flex justify-content-between">
+                        <li class="w-100 text-center">
+                            <a
+                                href="./index.html"
+                                class="btn btn-primary"
+                                title="Présentation"
+                                data-i18n="menu1"
+                                data-i18n-title="menu1"
+                                >Présentation</a
+                            >
+                        </li>
+                        <li class="w-100 text-center">
+                            <a
+                                href="./projets.html"
+                                title="Projets"
+                                class="btn btn-primary"
+                                data-i18n="menu2"
+                                data-i18n-title="menu2"
+                                >Projets</a
+                            >
+                        </li>
+                        <li class="w-100 text-center">
+                            <a
+                                href="./skills.html"
+                                title="Compétences"
+                                class="btn btn-primary"
+                                data-i18n="menu3"
+                                data-i18n-title="menu3"
+                                >Compétences</a
+                            >
+                        </li>
+                        <li class="w-100 text-center">
+                            <a
+                                href="./contact.html"
+                                title="Contact"
+                                class="btn btn-primary disabled"
+                                aria-current="page"
+                                aria-disabled="true"
+                                data-i18n="menu4"
+                                data-i18n-title="menu4"
+                                >Contact</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="container" role="main">
+            <div class="content">
+                <h2 data-i18n="contactTitleH">Me contacter</h2>
+                <div class="d-flex flex-column flex-sm-row contact__block">
+                    <div class="w-100 w-sm-50">
+                        <h3 data-i18n="contactMail">
+                            Pour me contacter par e-mail :
+                        </h3>
+                        <a
+                            class="btn btn-secondary"
+                            href="mailto:tcrouvizier@gmail.com"
+                            title="Me contacter par mail"
+                            data-i18n="contactTitleH"
+                            data-i18n-title="contactTitleLink"
+                            >Me contacter</a
+                        >
+                    </div>
+                    <div class="w-100 w-sm-50">
+                        <h3 data-i18n="contactOthers">Autres moyens :</h3>
+                        <a
+                            class="linkedin"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            data-i18n-title="linkedinLink"
+                            title="Accéder au profil LinkedIn"
+                            href="https://www.linkedin.com/in/thomas-crouvizier-b3630b211/"
+                            ><img src="images/linkedin.png" alt="logo linkedIn"
+                        /></a>
+                    </div>
+                </div>
+                <div class="cv-download">
+                    <h3 data-i18n="dlCvTitle">télécharger mon CV :</h3>
+                    <a
+                        title="Télécharger mon CV"
+                        data-i18n-title="dlCvTitleLink"
+                        href="assets/cv-thomas-crouvizier.pdf"
+                        data-i18n="dlCvButton"
+                        download
+                        class="btn btn-primary"
+                    >
+                        📄 Télécharger mon CV
+                    </a>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+        <script src="./main.js" defer></script>
+    </body>
+</html>
