@@ -1,0 +1,19 @@
+//----------------------------//
+// HOME
+//----------------------------//
+
+// CONTENT
+
+// CONTENT
+//----------------------------//
+.home {
+    &__content {
+        a {
+            text-decoration: underline;
+        }
+
+        .head-line {
+            font-size: $font-h4;
+        }
+    }
+}
